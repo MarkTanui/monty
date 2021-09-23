@@ -1,5 +1,4 @@
 #include "monty.h"
-var_1 vari;
 
 /**
  * f_list - runs monty interpreter

@@ -1,7 +1,5 @@
 #include "monty.h"
 
-var_1 vari;
-
 /**
  * run - Entry point. Executes the tokens/operstions provide there
  * exists a function to do so.

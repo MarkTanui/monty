@@ -1,6 +1,5 @@
 #include "monty.h"
 #define TOKEN_DELIM " \t\n"
-var_1 vari;
 
 /**
  * main - runs monty interpreter

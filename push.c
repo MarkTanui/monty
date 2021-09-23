@@ -1,5 +1,4 @@
 #include "monty.h"
-var_1 vari;
 
 /**
  * push - function that pushes/inserts a integer number to the stack.

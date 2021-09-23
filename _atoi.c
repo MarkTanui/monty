@@ -1,7 +1,5 @@
 #include "monty.h"
 
-var_1 vari;
-
 /**
  * _atoi - convert a string of digit to integer type
  * @str: str will be passed.

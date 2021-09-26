@@ -24,7 +24,7 @@ void pstr(stack_t **stack, unsigned int line_number)
 			break;
 		if ((tmp->n > 64 && tmp->n < 91) || (tmp->n > 96 && tmp->n < 123))
 		{
-			putchar(tmp->n);
+			_putchar(tmp->n);
 		}
 		else
 			break;

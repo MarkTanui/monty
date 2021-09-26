@@ -22,8 +22,8 @@ void pchar(stack_t **stack, unsigned int line_number)
 	if (((*stack)->n > 64 && (*stack)->n < 91) ||
 		 ((*stack)->n > 96 && (*stack)->n < 123))
 	{
-		putchar((*stack)->n);
-		putchar('\n');
+		_putchar((*stack)->n);
+		_putchar('\n');
 	}
 	else
 	{

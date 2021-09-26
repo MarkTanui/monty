@@ -14,7 +14,7 @@ void pchar(stack_t **stack, unsigned int line_number)
 
 	if (*stack == NULL || stack == NULL)
 	{
-		fprintf(stderr, "L%u: can't pchar,stack empty", line_number);
+		fprintf(stderr, "L%u: can't pchar, stack empty", line_number);
 		f_list(vari.mystack);
 		fclose(vari.fil);
 		exit(EXIT_FAILURE);
@@ -27,7 +27,7 @@ void pchar(stack_t **stack, unsigned int line_number)
 	}
 	else
 	{
-		fprintf(stderr, "L%u: can't pchar,value out of range", line_number);
+		fprintf(stderr, "L%u: can't pchar, value out of range", line_number);
 		f_list(vari.mystack);
 		fclose(vari.fil);
 		exit(EXIT_FAILURE);

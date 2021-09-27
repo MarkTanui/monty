@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * _pstr - prints the string starting at the top of the stack
+ * pstr - prints the string starting at the top of the stack
  * @stack: pointer to pointer to the top of stack
  * @line_number: line_number of instructions
  */

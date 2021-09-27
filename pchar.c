@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * pint - Prints the character at top of the stack
+ * pchar - Prints the character at top of the stack
  * @stack: Double pointer to the top of stack
  * @line_number: Number's line
  * Return: Nothing

@@ -9,8 +9,7 @@
  */
 
 void run(char (*refer)[80])
-{
-	int j = 0;
+{	int j = 0;
 
 	instruction_t funcs[] = {
 		{"push", push},
@@ -27,6 +26,7 @@ void run(char (*refer)[80])
 		{"pchar", pchar},
 		{"pstr", pstr},
 		{"rotl", rotl},
+		{NULL, NULL},
 	};
 	for (j = 0; j < 15; j++)
 	{
